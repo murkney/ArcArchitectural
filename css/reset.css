@@ -1,0 +1,41 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+li {
+	list-style: none;
+}
+
+img {
+	width: 100%;
+}
+
+button {
+	font: inherit;
+	color: inherit;
+	background: transparent;
+	border: transparent	;
+	cursor: pointer;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
