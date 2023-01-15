@@ -1,4 +1,4 @@
-/*@import url(//db.onlinewebfonts.com/c/0209bfe594ed24b75ee2aac06529e4f9?family=NHaasGroteskDSPro-75Bd);*/
+@import url("https://use.typekit.net/apz2fux.css");
 
 .aside {
 	max-width: 25vw;
@@ -10,9 +10,10 @@
 }
 
 .aside__title {
-	font-family: Neue Haas Grotesk;
-	font-size: 2.2vw;
+	font-family: neue-haas-grotesk-text,sans-serif;
 	font-weight: 700;
+	font-style: normal;
+	font-size: 2vw;
 }
 
 .aside__underline {
