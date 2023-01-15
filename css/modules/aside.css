@@ -1,7 +1,5 @@
-@import url("https://use.typekit.net/apz2fux.css");
-
 .aside {
-	max-width: 24.16vw;
+	max-width: 25vw;
 	margin: 1%;
 }
 
@@ -19,7 +17,7 @@
 .aside__underline {
 	height: 1px;
 	background: black;
-	margin: 1vh 0 1vh 0;
+	margin: 1vw 0 1vw 0;
 }
 
 .aside__about {
