@@ -1,0 +1,49 @@
+/*@import url(//db.onlinewebfonts.com/c/0209bfe594ed24b75ee2aac06529e4f9?family=NHaasGroteskDSPro-75Bd);*/
+
+.aside {
+	max-width: 25vw;
+	margin: 1%;
+}
+
+.aside__logo-hover-true {
+	display: none;
+}
+
+.aside__title {
+	font-family: Neue Haas Grotesk;
+	font-size: 2.2vw;
+	font-weight: 700;
+}
+
+.aside__underline {
+	height: 1px;
+	background: black;
+	margin: 1vh 0 1vh 0;
+}
+
+.aside__about {
+	font-size: 1.05vw;
+
+}
+
+.aside__navigation {
+	display: flex;
+	flex-direction: column;
+	cursor: pointer;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 2.2vw;
+}
+
+@media screen and (max-width: 480px) {
+	.aside__about {
+		display: none;
+	}
+
+	.aside__underline {
+		display: none;
+	}
+
+	.aside__navigation {
+		display: none;
+	}
+} 
