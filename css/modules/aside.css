@@ -1,16 +1,16 @@
 @import url("https://use.typekit.net/apz2fux.css");
 
 .aside {
-	max-width: 25vw;
+	max-width: 24.16vw;
 	margin: 1%;
 }
 
-.aside__logo-hover-true {
+.aside__logo-hover--true {
 	display: none;
 }
 
 .aside__title {
-	font-family: neue-haas-grotesk-text,sans-serif;
+	font-family: neue-haas-grotesk-text, sans-serif;
 	font-weight: 700;
 	font-style: normal;
 	font-size: 2vw;
@@ -23,8 +23,7 @@
 }
 
 .aside__about {
-	font-size: 1.05vw;
-
+	font-size: 1vw;
 }
 
 .aside__navigation {
@@ -32,7 +31,7 @@
 	flex-direction: column;
 	cursor: pointer;
 	font-family: 'Times New Roman', Times, serif;
-	font-size: 2.2vw;
+	font-size: 2vw;
 }
 
 @media screen and (max-width: 480px) {
