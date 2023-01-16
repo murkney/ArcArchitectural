@@ -1,6 +1,6 @@
-/* .aside__underline {
+.aside__underline {
 	background: var(--white);
-} */
+}
 
 .aside__navigation > a {
 	color: var(--white);
