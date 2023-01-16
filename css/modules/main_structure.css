@@ -1,0 +1,136 @@
+.main {
+	margin: 1vw 1vw 1vw 0;
+}
+
+.main__images {
+	display: flex;
+	flex-direction: column;
+}
+
+.main__images-first-news {
+	display: grid;
+	grid-template-rows: 42vw 15.45vw 27.48vw 7.92vw;
+	grid-template-columns: 41.25vw 33.75vw;
+	gap: 1vw;
+}
+
+.main__images-first-news-first-image {
+	background-image:url(../../assets/alan-rostovtev-eSKy3o8P_Bw-unsplash.jpg);
+	background-size: cover;
+	background-position: center;
+	grid-column: 1/3;
+	grid-row: 1/2;
+}
+
+.main__images-first-news-second-image {
+	background-image:url(../../assets/albert-stoynov-Opwvoz9zwYk-unsplash.jpg);
+	background-size: cover;
+	background-position: center;
+	max-width: 100%;
+	grid-column: 1/2;
+	grid-row: 2/4;
+}
+
+.main__images-first-news-third-image {
+	background-image:url(../../assets/mohammad-mohsen-rohani-M__1P-S3Iro-unsplash.jpg);
+	background-size: cover;
+	background-position: center;
+	max-width: 100%;
+	grid-column: 2/3;
+	grid-row: 2/3;
+}
+
+.main__images-first-news-fourth-image {
+	background-image:url(../../assets/brice-cooper-9ZOY7LR3Imw-unsplash.jpg);
+	background-size: cover;
+	background-position: center;
+	max-width: 100%;
+	grid-column: 2/3;
+	grid-row: 3/5;
+}
+
+.main__images-first-news-fifth-image {
+	background-size: cover;
+	background-position: center;
+	max-width: 100%;
+	grid-column: 1/2;
+	grid-row: 4/5;
+}
+
+.main__images-placeholders {
+	background-image: url(../../assets/background.png);
+	width: 100%;
+	height: 39.82vw;
+	height: 40%;
+	margin-top: 1vw;
+}
+
+.main__images-placeholders-elements {
+	margin: 1vw;
+	display: grid;
+	grid-template-columns: 36.5vw 36.5vw;
+	grid-template-rows: 18.41vw 18.41vw;
+	gap: 1vw;
+}
+
+.main__images-placeholders-first-placeholder {
+	background: #9747FF;
+	grid-column: 1/2;
+	grid-row: 1/2;
+}
+
+.main__images-placeholders-second-placeholder {
+	background: #9747FF;
+	grid-column: 2/3;
+	grid-row: 1/2;
+}
+
+.main__images-placeholders-third-placeholder {
+	background: #9747FF;
+	grid-column: 1/2;
+	grid-row: 2/3;
+}
+
+.main__images-placeholders-fourth-placeholder {
+	background: #9747FF;
+	grid-column: 2/3;
+	grid-row: 2/3;
+}
+
+
+.main__images-second-news {
+	margin-top: 1vw;
+	display: grid;
+	grid-template-columns: 43.34vw 31.66vw;
+	grid-template-rows: 33.82vw 19.6vw 14.85vw;
+	gap: 1vw;
+}
+
+.main__images-second-news-sixth-image {
+	background-image:url(../../assets/op23-Mq12w9VRe5o-unsplash.jpg);
+	background-size: cover;
+	background-position: center;
+	max-width: 100%;
+	grid-column: 1/3;
+	grid-row: 1/2;
+}
+
+.main__images-second-news-seventh-image {
+	background-image:url(../../assets/refargotohp-4gF39OLYwhk-unsplash.jpg);
+	background-size: cover;
+	background-position: center;
+	max-width: 100%;
+	grid-column: 1/2;
+	grid-row: 2/3;
+}
+
+.main__images-second-news-eighth-image {
+	background-image:url(../../assets/tingfeng-xia-5Hxcox7APfc-unsplash.jpg);
+	background-size: cover;
+	background-position: center;
+	max-width: 100%;
+	grid-column: 2/3;
+	grid-row: 2/4;
+}
+
+.main__images-second-news-ninth-image {}
