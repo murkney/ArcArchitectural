@@ -15,7 +15,7 @@
 }
 
 .main__images-first-news-first-image {
-	background-image:url(../../assets/alan-rostovtev-eSKy3o8P_Bw-unsplash.jpg);
+	background-image:url(../../assets/images/alan-rostovtev-eSKy3o8P_Bw-unsplash.jpg);
 	background-size: cover;
 	background-position: center;
 	grid-column: 1/3;
@@ -23,7 +23,7 @@
 }
 
 .main__images-first-news-second-image {
-	background-image:url(../../assets/albert-stoynov-Opwvoz9zwYk-unsplash.jpg);
+	background-image:url(../../assets/images/albert-stoynov-Opwvoz9zwYk-unsplash.jpg);
 	background-size: cover;
 	background-position: center;
 	max-width: 100%;
@@ -32,7 +32,7 @@
 }
 
 .main__images-first-news-third-image {
-	background-image:url(../../assets/mohammad-mohsen-rohani-M__1P-S3Iro-unsplash.jpg);
+	background-image:url(../../assets/images/mohammad-mohsen-rohani-M__1P-S3Iro-unsplash.jpg);
 	background-size: cover;
 	background-position: center;
 	max-width: 100%;
@@ -41,7 +41,7 @@
 }
 
 .main__images-first-news-fourth-image {
-	background-image:url(../../assets/brice-cooper-9ZOY7LR3Imw-unsplash.jpg);
+	background-image:url(../../assets/images/brice-cooper-9ZOY7LR3Imw-unsplash.jpg);
 	background-size: cover;
 	background-position: center;
 	max-width: 100%;
@@ -58,7 +58,7 @@
 }
 
 .main__images-placeholders {
-	background-image: url(../../assets/background.png);
+	background-image: url(../../assets/images/background.png);
 	width: 100%;
 	height: 39.82vw;
 	height: 40%;
@@ -107,7 +107,7 @@
 }
 
 .main__images-second-news-sixth-image {
-	background-image:url(../../assets/op23-Mq12w9VRe5o-unsplash.jpg);
+	background-image:url(../../assets/images/op23-Mq12w9VRe5o-unsplash.jpg);
 	background-size: cover;
 	background-position: center;
 	max-width: 100%;
@@ -116,7 +116,7 @@
 }
 
 .main__images-second-news-seventh-image {
-	background-image:url(../../assets/refargotohp-4gF39OLYwhk-unsplash.jpg);
+	background-image:url(../../assets/images/refargotohp-4gF39OLYwhk-unsplash.jpg);
 	background-size: cover;
 	background-position: center;
 	max-width: 100%;
@@ -125,7 +125,7 @@
 }
 
 .main__images-second-news-eighth-image {
-	background-image:url(../../assets/tingfeng-xia-5Hxcox7APfc-unsplash.jpg);
+	background-image:url(../../assets/images/tingfeng-xia-5Hxcox7APfc-unsplash.jpg);
 	background-size: cover;
 	background-position: center;
 	max-width: 100%;
