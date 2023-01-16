@@ -1,7 +1,7 @@
-.main__page {
+/* .main__page {
 	
 
-}
+} */
 
 .main__page-info {
 	padding: 3vw 8vw 0 8vw;
@@ -9,4 +9,15 @@
 
 .main__page-title {
 	margin-bottom: 3vw;
+
+}
+
+.main__page-text {
+	font-size: var(--large-text);
+	font-weight: 900;
+	margin: 30px 0 30px;
+}
+
+.main__page-paragraph {
+	max-width: 466px;
 }
