@@ -1,6 +1,6 @@
 .aside {
 	max-width: 25vw;
-	margin: 1%;
+	margin: 1vw;
 }
 
 .aside__logo-hover--true {
@@ -11,7 +11,7 @@
 	font-family: neue-haas-grotesk-text, sans-serif;
 	font-weight: 700;
 	font-style: normal;
-	font-size: 2vw;
+	font-size: 1.65vw;
 }
 
 .aside__underline {
