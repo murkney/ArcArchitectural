@@ -1,11 +1,3 @@
-.aside__logo-hover--true {
-	display: block;
-}
-
-.aside__logo-hover--false {
-	display: none;
-}
-
 .aside__underline {
 	background: var(--white);
 }
