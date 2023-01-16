@@ -13,9 +13,13 @@
 }
 
 .main__page-text {
-	font-size: var(--large-text);
-	font-weight: 900;
-	margin: 30px 0 30px;
+	font-family: neue-haas-grotesk-text, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 2vw;
+	margin: 40px 0 40px;
+	max-width: 705px;
+	
 }
 
 .main__page-paragraph {
