@@ -1,3 +1,9 @@
 :root {
+	--large-text: 2.5rem;
+	--body-text: 1.25rem;
 	
+	--black: #000000;
+	--white: #FFFFFF;
+	--purple: #9747FF;
+	--grey: #E7E7E7;
 }

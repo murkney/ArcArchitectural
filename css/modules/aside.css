@@ -1,6 +1,7 @@
 .aside {
 	max-width: 25vw;
 	margin: 1vw;
+	overflow: scroll;
 }
 
 .aside__logo-hover--true {
