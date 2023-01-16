@@ -1,4 +1,9 @@
+@import url("https://use.typekit.net/apz2fux.css");
+
+html {
+	font-size: 20px;
+}
+
 .body {
 	display: grid;
-	
-}
+}	

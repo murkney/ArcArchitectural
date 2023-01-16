@@ -1,0 +1,47 @@
+.aside {
+	max-width: 25vw;
+	margin: 1%;
+}
+
+.aside__logo-hover--true {
+	display: none;
+}
+
+.aside__title {
+	font-family: neue-haas-grotesk-text, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 2vw;
+}
+
+.aside__underline {
+	height: 1px;
+	background: black;
+	margin: 1vw 0 1vw 0;
+}
+
+.aside__about {
+	font-size: 1vw;
+}
+
+.aside__navigation {
+	display: flex;
+	flex-direction: column;
+	cursor: pointer;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 2vw;
+}
+
+@media screen and (max-width: 480px) {
+	.aside__about {
+		display: none;
+	}
+
+	.aside__underline {
+		display: none;
+	}
+
+	.aside__navigation {
+		display: none;
+	}
+} 
