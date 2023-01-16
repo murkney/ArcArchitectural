@@ -1,0 +1,27 @@
+/* .main__page {
+	
+
+} */
+
+.main__page-info {
+	padding: 3vw 8vw 0 8vw;
+}
+
+.main__page-title {
+	margin-bottom: 3vw;
+
+}
+
+.main__page-text {
+	font-family: neue-haas-grotesk-text, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 2vw;
+	margin: 40px 0 40px;
+	max-width: 705px;
+	
+}
+
+.main__page-paragraph {
+	max-width: 466px;
+}

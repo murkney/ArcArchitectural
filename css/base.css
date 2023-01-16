@@ -5,10 +5,12 @@ html {
 }
 
 .body {
-	display: grid;
-}
+	display: flex;
+	flex-direction: row;
+}	
 
 .body-dark {
 	background-color: var(--black);
 	color: var(--white);
 }
+
