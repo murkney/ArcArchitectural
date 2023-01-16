@@ -6,4 +6,9 @@ html {
 
 .body {
 	display: grid;
-}	
+}
+
+.body-dark {
+	background-color: var(--black);
+	color: var(--white);
+}
