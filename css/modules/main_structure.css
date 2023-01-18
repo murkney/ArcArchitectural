@@ -1,4 +1,6 @@
 .main {
+	grid-column-start: 4;
+	grid-column-end: 12;
 	margin: 1vw 1vw 1vw 0;
 }
 
@@ -17,7 +19,7 @@
 .main__images-first-news-first-image {
 	background-image:url(../../assets/images/alan-rostovtev-eSKy3o8P_Bw-unsplash.jpg);
 	background-size: cover;
-	background-position: center;
+	background-position: bottom;
 	grid-column: 1/3;
 	grid-row: 1/2;
 }

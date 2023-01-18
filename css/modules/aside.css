@@ -1,4 +1,6 @@
 .aside {
+	grid-column-start: 1;
+	grid-column-end: 4;
 	max-width: 25vw;
 	margin: 1vw;
 	overflow: scroll;

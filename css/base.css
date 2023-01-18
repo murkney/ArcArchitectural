@@ -14,3 +14,7 @@ html {
 	color: var(--white);
 }
 
+.aside-and-main {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+}
