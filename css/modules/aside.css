@@ -4,6 +4,10 @@
 	overflow: scroll;
 }
 
+.aside__logo {
+	height: 11rem;
+}
+
 .aside__logo-hover--true {
 	display: none;
 }
