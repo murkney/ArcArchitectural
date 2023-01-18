@@ -1,27 +1,31 @@
-/* .main__page {
-	
-
-} */
-
 .main__page-info {
-	padding: 3vw 8vw 0 8vw;
+	display: grid;
+	grid-template-columns: repeat(9, 1fr);
 }
 
 .main__page-title {
-	margin-bottom: 3vw;
+	font-family: var(--primary-font-family);
+	font-size: var(--large-text-size);
+	margin: var(--large-text-size) 0 var(--large-text-size) 0;
+	grid-column: 2/4;
+}
 
+.main__page-image {
+	grid-column: 2/9;
 }
 
 .main__page-text {
-	font-family: neue-haas-grotesk-text, sans-serif;
+	grid-column: 2/8;
+	font-family: var(--primary-font-family);
 	font-weight: 700;
 	font-style: normal;
-	font-size: 2vw;
+	font-size: var(--large-text-size);
 	margin: 40px 0 40px;
 	max-width: 705px;
-	
 }
 
 .main__page-paragraph {
 	max-width: 466px;
+	font-size: var(--body-text-size);
+	grid-column: 2/6;
 }
