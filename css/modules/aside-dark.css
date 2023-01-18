@@ -5,3 +5,11 @@
  .aside__navigation > a {
 	color: var(--white);
 }
+
+.aside__logo:hover > .aside__logo-white {
+	display: none;
+}
+
+.aside__logo:hover > .aside__logo-hover--true {
+	display: block;
+}
