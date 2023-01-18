@@ -1,6 +1,8 @@
 :root {
-	--large-text: 2.5rem;
-	--body-text: 1.25rem;
+	--large-text-size: 2.777777777777778vw;
+	--body-text-size: 1.388888888888889vw;
+
+	--primary-font-family: neue-haas-grotesk-text, sans-serif;
 	
 	--black: #000000;
 	--white: #FFFFFF;

@@ -18,7 +18,7 @@
 }
 
 .aside__title {
-	font-family: neue-haas-grotesk-text, sans-serif;
+	font-family: var(--primary-font-family);
 	font-weight: 700;
 	font-style: normal;
 	font-size: 1.65vw;
@@ -46,7 +46,7 @@
 	display: none;
 }
 
-.aside__logo:hover > .aside__logo-hover--true {
+.aside__logo:hover > a > .aside__logo-hover--true {
 	display: block;
 	margin-bottom: 5px;
 }
