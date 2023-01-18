@@ -1,0 +1,27 @@
+.image__text-hover {
+	display: none;
+	margin: 1rem 0 0 1rem;
+}
+
+.image__text-width {
+	width: 40%;
+}
+
+.image__text-paragraph {
+	font-size: var(--body-text);
+	color: var(--white);
+}
+
+.image__text-h2 {
+	font-size: var(--large-text);
+	color: var(--white);
+}
+
+.image__text-visible:hover > .image__text-hover {
+	display: block;
+}
+
+.image__text-visible:hover {
+	background-image: none;
+	background-color: black;
+}
