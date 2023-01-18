@@ -33,6 +33,14 @@
 	font-size: 2vw;
 }
 
+.aside__logo:hover > .aside__logo-hover--false {
+	display: none;
+}
+
+.aside__logo:hover > .aside__logo-hover--true {
+	display: block;
+}
+
 @media screen and (max-width: 480px) {
 	.aside__about {
 		display: none;
