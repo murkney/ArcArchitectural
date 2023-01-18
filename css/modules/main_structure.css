@@ -1,7 +1,6 @@
 .main {
-	grid-column-start: 4;
-	grid-column-end: 12;
-	margin: 1vw 1vw 1vw 0;
+	grid-column: 4/13;
+	margin: var(--grid-gap) 0 var(--grid-gap) 0;
 }
 
 .main__images {
@@ -12,7 +11,8 @@
 .main__images-first-news {
 	display: grid;
 	grid-template-rows: 42vw 15.45vw 27.48vw 7.92vw;
-	grid-template-columns: 41.25vw 33.75vw;
+	/* grid-template-columns: 41.25vw 33.75vw; */
+	grid-template-columns: repeat(9, 1fr);
 	gap: 1vw;
 }
 
@@ -20,7 +20,7 @@
 	background-image:url(../../assets/images/alan-rostovtev-eSKy3o8P_Bw-unsplash.jpg);
 	background-size: cover;
 	background-position: bottom;
-	grid-column: 1/3;
+	grid-column: 1/10;
 	grid-row: 1/2;
 }
 
@@ -29,7 +29,7 @@
 	background-size: cover;
 	background-position: center;
 	max-width: 100%;
-	grid-column: 1/2;
+	grid-column: 1/6;
 	grid-row: 2/4;
 }
 
@@ -38,7 +38,7 @@
 	background-size: cover;
 	background-position: center;
 	max-width: 100%;
-	grid-column: 2/3;
+	grid-column: 6/10;
 	grid-row: 2/3;
 }
 
@@ -47,7 +47,7 @@
 	background-size: cover;
 	background-position: center;
 	max-width: 100%;
-	grid-column: 2/3;
+	grid-column: 6/10;
 	grid-row: 3/5;
 }
 
@@ -70,31 +70,32 @@
 .main__images-placeholders-elements {
 	margin: 1vw;
 	display: grid;
-	grid-template-columns: 36.5vw 36.5vw;
+	/* grid-template-columns: 36.5vw 36.5vw; */
+	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: 18.41vw 18.41vw;
 	gap: 1vw;
 }
 
 .main__images-placeholders-first-placeholder {
-	background: #9747FF;
+	background: var(--purple);
 	grid-column: 1/2;
 	grid-row: 1/2;
 }
 
 .main__images-placeholders-second-placeholder {
-	background: #9747FF;
+	background: var(--purple);
 	grid-column: 2/3;
 	grid-row: 1/2;
 }
 
 .main__images-placeholders-third-placeholder {
-	background: #9747FF;
+	background: var(--purple);
 	grid-column: 1/2;
 	grid-row: 2/3;
 }
 
 .main__images-placeholders-fourth-placeholder {
-	background: #9747FF;
+	background: var(--purple);
 	grid-column: 2/3;
 	grid-row: 2/3;
 }
@@ -103,7 +104,8 @@
 .main__images-second-news {
 	margin-top: 1vw;
 	display: grid;
-	grid-template-columns: 43.34vw 31.66vw;
+	/* grid-template-columns: 43.34vw 31.66vw; */
+	grid-template-columns: repeat(9, 1fr);
 	grid-template-rows: 33.82vw 19.6vw 14.85vw;
 	gap: 1vw;
 }
@@ -113,7 +115,7 @@
 	background-size: cover;
 	background-position: center;
 	max-width: 100%;
-	grid-column: 1/3;
+	grid-column: 1/10;
 	grid-row: 1/2;
 }
 
@@ -122,7 +124,7 @@
 	background-size: cover;
 	background-position: center;
 	max-width: 100%;
-	grid-column: 1/2;
+	grid-column: 1/6;
 	grid-row: 2/3;
 }
 
@@ -131,7 +133,7 @@
 	background-size: cover;
 	background-position: center;
 	max-width: 100%;
-	grid-column: 2/3;
+	grid-column: 6/10;
 	grid-row: 2/4;
 }
 
