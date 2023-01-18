@@ -1,8 +1,3 @@
-.main {
-	grid-column: 4/13;
-	margin: var(--grid-gap) 0 var(--grid-gap) 0;
-}
-
 .main__images {
 	display: flex;
 	flex-direction: column;
