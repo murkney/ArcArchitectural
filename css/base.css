@@ -14,3 +14,16 @@ html {
 	color: var(--white);
 }
 
+.aside-and-main {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	column-gap: var(--grid-gap);
+	margin: 0 var(--grid-gap) 0 var(--grid-gap);
+	max-width: 100vw;
+}
+
+/* @media screen and (max-width: 800px) {
+	html {
+		font-size: 15px;
+	}
+} */

@@ -1,7 +1,16 @@
 .aside {
+	position: sticky;
+	/* top: 1vw; */
+	grid-column-start: 1;
+	grid-column-end: 4;
 	max-width: 25vw;
-	margin: 1vw;
-	overflow: scroll;
+	margin: var(--grid-gap) 0 var(--grid-gap) 0;
+	overflow-y: scroll;
+	height: 100vh;
+}
+
+.aside::-webkit-scrollbar {
+	display: none;
 }
 
 .aside__logo {
