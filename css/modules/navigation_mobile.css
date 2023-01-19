@@ -1,0 +1,120 @@
+.aside__title {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.aside__title-search {
+	display: none;
+}
+
+.aside__title-hamburger-menu {
+	display: none;
+}
+
+@media screen and (max-width: 480px) {
+
+	.body {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.aside-and-main {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.aside {
+		max-width: 100%;
+		padding: 1vw;
+	}
+
+	.aside__title {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		font-size: 7vw;
+		justify-content: space-between;
+		margin-top: 1vw;
+	}
+
+	.aside__title h1 {
+		white-space: nowrap;
+	}
+
+	.aside__title-search {
+		display: block;
+		width: 8vw;
+	}
+
+	.aside__title-hamburger-menu {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		height: 7vw;
+		width: 10vw;
+		-webkit-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		transform: rotate(0deg);
+		-webkit-transition: 0.5s ease-in-out;
+		-moz-transition: 0.5s ease-in-out;
+		-o-transition: 0.5s ease-in-out;
+		transition: 0.5s ease-in-out;
+	}
+
+	.aside__title-hamburger-menu div {
+		height: 1vw;
+		width: 10vw;
+		background-color: var(--black);
+		position: absolute;
+		right: 0;
+		-webkit-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		transform: rotate(0deg);
+		-webkit-transition: 0.25s ease-in-out;
+		-moz-transition: 0.25s ease-in-out;
+		-o-transition: 0.25s ease-in-out;
+		transition: 0.25s ease-in-out;
+	}
+	
+	.aside__title-hamburger-menu div:nth-child(1) {
+		top: 0;
+	}
+	
+	.aside__title-hamburger-menu div:nth-child(2), 
+	.aside__title-hamburger-menu div:nth-child(3) {
+		top: 3vw;
+	}
+	
+	.aside__title-hamburger-menu div:nth-child(4) {
+		top: 6vw;
+	}
+	
+	.aside__title-hamburger-menu.open div {
+		background: var(--black);
+	}
+	
+	.aside__title-hamburger-menu.open div:nth-child(1) {
+		opacity: 0;
+	}
+	
+	.aside__title-hamburger-menu.open div:nth-child(2) {
+		-webkit-transform: rotate(45deg);
+		-moz-transform: rotate(45deg);
+		-o-transform: rotate(45deg);
+		transform: rotate(45deg);
+	}
+	
+	.aside__title-hamburger-menu.open div:nth-child(3) {
+		-webkit-transform: rotate(-45deg);
+		-moz-transform: rotate(-45deg);
+		-o-transform: rotate(-45deg);
+		transform: rotate(-45deg);
+	}
+	
+	.aside__title-hamburger-menu.open div:nth-child(4) {
+		opacity: 0;
+	}	
+}

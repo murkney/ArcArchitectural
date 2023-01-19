@@ -13,3 +13,11 @@
 .aside__logo:hover > .aside__logo-hover--true {
 	display: block;
 }
+
+.aside__title-hamburger-menu div {
+	background: var(--white);
+}	
+
+.aside__title-hamburger-menu.open div {
+	background: var(--white);
+}

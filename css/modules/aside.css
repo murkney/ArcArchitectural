@@ -21,12 +21,13 @@
 	font-family: var(--primary-font-family);
 	font-weight: 700;
 	font-style: normal;
-	font-size: 1.65vw;
+	font-size: var(--large-text-size);
+	white-space: nowrap;
 }
 
 .aside__underline {
 	height: 1px;
-	background: black;
+	background: var(--black);
 	margin: 1vw 0 1vw 0;
 }
 
