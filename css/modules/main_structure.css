@@ -8,7 +8,7 @@
 	grid-template-rows: 42vw 15.45vw 27.48vw 7.92vw;
 	/* grid-template-columns: 41.25vw 33.75vw; */
 	grid-template-columns: repeat(9, 1fr);
-	gap: 1vw;
+	gap: var(--grid-gap);
 }
 
 .main__images-first-news-first-image {

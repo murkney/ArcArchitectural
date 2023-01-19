@@ -1,6 +1,6 @@
 .aside {
 	position: sticky;
-	/* top: 1vw; */
+	top: var(--grid-gap);
 	grid-column-start: 1;
 	grid-column-end: 4;
 	max-width: 25vw;
@@ -32,7 +32,7 @@
 }
 
 .aside__about {
-	font-size: 1vw;
+	font-size: var(--body-text-size);
 }
 
 .aside__navigation {

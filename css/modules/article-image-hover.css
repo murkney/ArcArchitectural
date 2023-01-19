@@ -1,6 +1,6 @@
 .image__text-hover {
 	display: none;
-	margin: 1rem 0 0 1rem;
+	margin: 1rem 10vw 0 1rem;
 }
 
 .image__text-width {
@@ -8,12 +8,13 @@
 }
 
 .image__text-paragraph {
-	font-size: var(--body-text);
+	font-size: var(--body-text-size);
 	color: var(--white);
 }
 
 .image__text-h2 {
-	font-size: var(--large-text);
+	font-family: var(--primary-font-family);
+	font-size: var(--large-text-size);
 	color: var(--white);
 }
 
