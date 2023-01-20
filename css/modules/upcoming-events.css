@@ -38,3 +38,22 @@
 	color: var(--white);
 	background-color: var(--black);
 }
+
+@media screen and (max-width: 480px) {
+	
+	.events__heading {
+		display: none;
+	}
+	
+	.events__navigation {
+		display: none;
+	}
+	
+	.events__navigation-link {
+		display: none;
+	}
+	
+	.events__content {
+		display: none;
+	}
+}
