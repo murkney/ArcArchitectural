@@ -1,0 +1,51 @@
+.main__article-content {
+	display: grid;
+	grid-template-columns: repeat(9, 1fr);
+}
+
+.main__article-author {
+	grid-column: 2/5;
+	font-size: var(--body-text-size);
+	font-weight: 400;
+	margin: 2.78vw 0 0 0;
+}
+
+.main__article-title {
+	grid-column: 2/9;
+	font-family: var(--primary-font-family);
+	font-size: var(--large-text-size);
+	margin: 0 0 var(--large-text-size) 0;
+}
+
+.main__article-figcap {
+	font-size: var(--small-text-size);
+	font-weight: 400;
+	margin-bottom: var(--large-text-size);
+}
+
+.main__article-first-image {
+	grid-column: 1/10;
+	margin-bottom: 0.694vw;
+}
+
+.main__article-first-image-figcap {
+	grid-column: 2/7;
+}
+
+.main__article-paragraph {
+	grid-column: 2/6;
+	margin-bottom: var(--large-text-size);
+}
+
+.main__article-paragraph > p {
+	grid-column: 2/6;
+}
+
+.main__article-second-image {
+	grid-column: 2/9;
+	margin-bottom: 0.694vw;
+}
+
+.main__article-second-image-figcap {
+	grid-column: 2/6;
+}
