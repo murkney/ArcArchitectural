@@ -37,7 +37,7 @@
 	margin-bottom: var(--large-text-size);
 }
 
-.main__article-paragraph > p {
+.main__article-paragraph {
 	grid-column: 2/6;
 }
 
@@ -48,4 +48,37 @@
 
 .main__article-second-image-figcap {
 	grid-column: 2/6;
+}
+
+@media screen and (max-width:480px){
+	.main__article-content {
+		margin: var(--mobile-small-text-size);
+	}
+	
+	.main__article-author {
+		grid-column: 1/9;
+		font-size: var(--mobile-body-text-size);
+	}
+
+	.main__article-title {
+		grid-column: 1/10;
+		font-size: var(--mobile-large-text-size);
+	}
+
+	.main__article-figcap {
+		grid-column: 1/10;
+		font-size: var(--mobile-small-text-size);
+		margin-bottom: var(--mobile-large-text-size);
+	}
+
+	.main__article-paragraph {
+		grid-column: 1/10;
+		font-size: var(--mobile-body-text-size);
+		margin-bottom: var(--mobile-large-text-size);
+	}
+
+	.main__article-second-image {
+		grid-column: 1/10;
+	}
+
 }

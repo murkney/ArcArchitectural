@@ -53,6 +53,11 @@
 }
 
 @media screen and (max-width: 480px) {
+	.aside {
+		position: unset;
+		height: unset;
+	}
+
 	.aside__about {
 		display: none;
 	}
