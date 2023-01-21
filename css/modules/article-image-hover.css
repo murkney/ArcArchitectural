@@ -1,4 +1,7 @@
-.image__text-hover {
+.main__images-first-news-first-image-text-hover,
+.main__images-first-news-second-image-text-hover,
+.main__images-first-news-third-image-text-hover,
+.main__images-first-news-fourth-image-text-hover {
 	display: none;
 	margin: 1rem 10vw 0 1rem;
 }
@@ -18,11 +21,78 @@
 	color: var(--white);
 }
 
-.image__text-visible:hover > .image__text-hover {
+.main__images-first-news-first-image:hover > .main__images-first-news-first-image-text-hover {
 	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 4;
+}
+.main__images-first-news-second-image:hover > .main__images-first-news-second-image-text-hover {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 4;
+}
+.main__images-first-news-third-image:hover > .main__images-first-news-third-image-text-hover {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 4;
+}
+.main__images-first-news-fourth-image:hover > .main__images-first-news-fourth-image-text-hover {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 4;
+}
+/*.main__images-first-news-fifth-image--visible:hover > .image__text-hover*/
+ /*{
+	display: block;
+	position: absolute;
+	top: 0;
+	z-index: 4;
+}*/
+
+.main__images-first-news-first-image:hover {
+	background-color: black;
 }
 
-.image__text-visible:hover {
-	background-image: none;
+.main__images-first-news-first-image:hover img {
+	/*display: none;*/
+}
+
+.main__images-first-news-second-image:hover {
+	background-color: black;	
+}
+
+.main__images-first-news-second-image:hover img {
+	/*display: none;*/
+}
+
+.main__images-first-news-third-image:hover {
 	background-color: black;
+}
+
+.main__images-first-news-third-image:hover img {
+	/*display: none;*/
+}
+
+.main__images-first-news-fourth-image:hover {
+	background-color: black;
+}
+
+.main__images-first-news-fourth-image:hover img {
+	/*display: none;*/
+}
+
+.main__images-first-news-fifth-image:hover {
+	background-color: white;
+}
+
+.main__images-first-news-fifth-image:hover img {
+	/*display: none;*/
 }
