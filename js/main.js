@@ -1,3 +1,3 @@
-import Navigation from './modules/header.js';
+import Navigation from './modules/navigation.js';
 
 Navigation();
