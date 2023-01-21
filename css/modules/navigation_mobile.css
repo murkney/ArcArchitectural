@@ -116,5 +116,13 @@
 	
 	.aside__title-hamburger-menu.open div:nth-child(4) {
 		opacity: 0;
-	}	
+	}
+
+	.aside__navigation.active {
+		display: flex;
+		flex-direction: column;
+		cursor: pointer;
+		font-family: 'Times New Roman', Times, serif;
+		font-size: var(--mobile-large-text);
+	}
 }
