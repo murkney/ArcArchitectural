@@ -123,6 +123,6 @@
 		flex-direction: column;
 		cursor: pointer;
 		font-family: 'Times New Roman', Times, serif;
-		font-size: var(--mobile-large-text);
+		font-size: var(--mobile-large-text-size);
 	}
 }
