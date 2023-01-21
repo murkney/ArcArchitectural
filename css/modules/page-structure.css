@@ -20,12 +20,52 @@
 	font-weight: 700;
 	font-style: normal;
 	font-size: var(--large-text-size);
-	margin: 40px 0 40px;
+	margin: var(--large-text-size) 0 var(--large-text-size);
 	max-width: 705px;
 }
 
 .main__page-paragraph {
+	grid-column: 2/6;
 	max-width: 466px;
 	font-size: var(--body-text-size);
+	margin-bottom: var(--body-text-size);
+}
+
+.main__page-subparagraph {
 	grid-column: 2/6;
+}
+
+.main__page-subparagraph:not(:first-of-type) {
+	text-indent: 3.47vw;
+}
+
+@media screen and	(max-width: 480px) {
+	.main__page-info {
+		margin: var(--mobile-small-text-size);
+	}
+	
+	.main__page-title {
+		grid-column: 1/10;
+		font-size: var(--mobile-large-text-size);
+	}
+
+	.main__page-image {
+		grid-column: 1/10;
+	}
+
+	.main__page-text {
+		grid-column: 1/10;
+		font-size: var(--mobile-large-text-size);
+		margin-bottom: var(--mobile-large-text-size);
+	}
+
+	.main__page-paragraph {
+		grid-column: 1/10;
+		font-size: var(--mobile-body-text-size);
+		margin-bottom: var(--mobile-body-text-size);
+	}
+
+	.main__page-subparagraph:not(:first-of-type) {
+		text-indent: 10.42vw;
+	}
 }
