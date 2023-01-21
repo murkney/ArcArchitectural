@@ -3,10 +3,10 @@
 	top: var(--grid-gap);
 	grid-column-start: 1;
 	grid-column-end: 4;
-	max-width: 25vw;
+	/*max-width: 25vw;*/
 	margin: var(--grid-gap) 0 var(--grid-gap) 0;
 	overflow-y: scroll;
-	height: 100vh;
+	max-height: 100vh;
 }
 
 .aside::-webkit-scrollbar {
@@ -32,6 +32,7 @@
 }
 
 .aside__about {
+	font-family: 'Times New Roman', Times, serif;
 	font-size: var(--body-text-size);
 }
 
@@ -40,7 +41,7 @@
 	flex-direction: column;
 	cursor: pointer;
 	font-family: 'Times New Roman', Times, serif;
-	font-size: 2vw;
+	font-size: var(--large-text-size);
 }
 
 .aside__logo:hover > .aside__logo-hover--false {
