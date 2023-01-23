@@ -9,8 +9,13 @@
 	margin: 1rem 10vw 0 1rem;
 }
 
+.main__images-first-news-fourth-image-text-hover {
+	margin-right: 5vw;
+}
+
+/* Remove commented line if the text, on the first picture, is not going to be on one line */
 .image__text-width {
-	width: 40%;
+	/* width: 50%; */
 }
 
 .image__text-paragraph {
