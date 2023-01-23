@@ -48,7 +48,7 @@
 
 .main__images-first-news-second-image img {
 	object-fit: cover;
-	max-height: 876px;
+	height: 100%;
 }
 
 .main__images-first-news-third-image {
@@ -60,7 +60,7 @@
 
 .main__images-first-news-third-image img {
 	object-fit: cover;
-	max-height: 312px;
+	height: 100%;
 }
 
 .main__images-first-news-fourth-image {
@@ -72,7 +72,7 @@
 
 .main__images-first-news-fourth-image img {
 	object-fit: cover;
-	max-height: 714px;
+	height: 100%;
 }
 
 .main__images-first-news-fifth-image {
@@ -135,7 +135,7 @@
 
 .main__images-second-news-sixth-image img {
 	object-fit: cover;
-	max-height: 685px;
+	height: 100%;
 }
 
 .main__images-second-news-seventh-image {
@@ -147,7 +147,7 @@
 
 .main__images-second-news-seventh-image img {
 	object-fit: cover;
-	max-height: 396px;
+	height: 100%;
 }
 
 .main__images-second-news-eighth-image {
@@ -159,5 +159,5 @@
 
 .main__images-second-news-eighth-image img {
 	object-fit: cover;
-	max-height: 696px;
+	height: 100%;
 }
