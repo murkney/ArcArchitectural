@@ -37,8 +37,12 @@
 	margin-bottom: var(--large-text-size);
 }
 
-.main__article-paragraph {
+.main__article-subparagraph {
 	grid-column: 2/6;
+}
+
+.main__article-subparagraph:not(:first-of-type) {
+	text-indent: 3.47vw;
 }
 
 .main__article-second-image {
