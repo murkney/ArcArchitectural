@@ -84,39 +84,58 @@
 .main__images-placeholders {
 	background-image: url(../../assets/images/background.png);
 	margin-top: 1vw;
+	aspect-ratio: 4/3;
 }
 
 .main__images-placeholders-elements {
-	margin: 1vw;
+	margin: var(--grid-gap);
 	display: grid;
-	height: 44.75vw;
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: repeat(2, 1fr);
-	gap: 1vw;
+	gap: var(--grid-gap);
+}
+
+.main__images-placeholders-elements p {
+	font-family: var(--primary-font-family);
+	font-size: var(--large-text-size);
+	color: white;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	text-align: center;
+	margin: 0 20%;
 }
 
 .main__images-placeholders-first-placeholder {
 	background: var(--purple);
 	grid-column: 1/2;
 	grid-row: 1/2;
+	aspect-ratio: 4/3;
+	display: flex;
 }
 
 .main__images-placeholders-second-placeholder {
 	background: var(--purple);
 	grid-column: 2/3;
 	grid-row: 1/2;
+	aspect-ratio: 4/3;
+	display: flex;
 }
 
 .main__images-placeholders-third-placeholder {
 	background: var(--purple);
 	grid-column: 1/2;
 	grid-row: 2/3;
+	aspect-ratio: 4/3;
+	display: flex;
 }
 
 .main__images-placeholders-fourth-placeholder {
 	background: var(--purple);
 	grid-column: 2/3;
 	grid-row: 2/3;
+	aspect-ratio: 4/3;
+	display: flex;
 }
 
 .main__images-second-news {
