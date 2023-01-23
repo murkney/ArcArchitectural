@@ -11,7 +11,9 @@
 	margin: .5rem 0;
 }
 
-.events__navigation-link {
+.events__navigation-lectures,
+.events__navigation-exhibitions,
+.events__navigation-seminars {
 	font-size: var(--small-text-size);
 	text-transform: uppercase;
 	border: 1.6px solid black;
@@ -19,7 +21,9 @@
 	padding: .1rem .3rem;
 }
 
-.events__content {
+.events__content-lectures,
+.events__content-exhibitions,
+.events__content-seminars {
 	margin: 1rem 0;
 }
 
@@ -49,11 +53,15 @@
 		display: none;
 	}
 	
-	.events__navigation-link {
+	.events__navigation-lectures,
+	.events__navigation-exhibitions,
+	.events__navigation-seminars {
 		display: none;
 	}
 	
-	.events__content {
+	.events__content-lectures,
+	.events__content-exhibitions,
+	.events__content-seminars {
 		display: none;
 	}
 }
