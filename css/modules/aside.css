@@ -3,10 +3,9 @@
 	top: var(--grid-gap);
 	grid-column-start: 1;
 	grid-column-end: 4;
-	/*max-width: 25vw;*/
 	margin: var(--grid-gap) 0 var(--grid-gap) 0;
 	overflow-y: scroll;
-	max-height: 100vh;
+	max-height: 1000px;
 }
 
 .aside::-webkit-scrollbar {
