@@ -7,25 +7,39 @@
 
 .events__navigation {
 	display: flex;
-	gap: .5rem;
-	margin: .5rem 0;
+	gap: 0.5vw;
+	margin: -0.5vw 0 -0.5vw 0;	
 }
 
-.events__navigation-lectures,
-.events__navigation-exhibitions,
-.events__navigation-seminars {
+.events__navigation-button {
 	font-size: var(--small-text-size);
 	text-transform: uppercase;
-	border: 1.6px solid black;
-	border-radius: 1rem;
-	padding: .1rem .3rem;
+	border: .1vw solid var(--black);
+	border-radius: 1vw;
+	padding: .2vw .5vw;
 }
 
 .events__content-lectures,
 .events__content-exhibitions,
 .events__content-seminars {
-	margin: 1rem 0;
+	margin: 1vw 0;
+	display: block;
+	animation: fade 0.5s ease-in;
 }
+
+@keyframes fade {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.events__navigation-button:hover {
+	background: var(--black);
+	color: var(--white);
+} 
 
 .events__content-info {
 	font-size: var(--small-text-size);
@@ -53,9 +67,9 @@
 		display: none;
 	}
 	
-	.events__navigation-lectures,
-	.events__navigation-exhibitions,
-	.events__navigation-seminars {
+	.events__navigation-button,
+	.events__navigation-button,
+	.events__navigation-button {
 		display: none;
 	}
 	
