@@ -1,60 +1,32 @@
-export default function Navigation() {
+export default function Events() {
 
-	const eventsLectures = document.querySelectorAll('events__content-lectures');
-	const eventsExhibitions = document.querySelectorAll('events__content-exhibitions');
-	const eventsSeminars = document.querySelectorAll('events__content-seminars');
-	const buttonLectures = document.querySelector('.events__navigation-lectures');
-	const buttonExhibitions = document.querySelector('.events__navigation-exhibitions');
-	const buttonSeminars = document.querySelector('.events__navigation-seminars');
+	const upcomingEvents = document.querySelectorAll('.events');
+	const buttonEvents = document.querySelector('.events__navigation');
+	const activeButtons = document.querySelectorAll('.events__navigation button');
 
-	let visibileLectures = false;
-	let visibileExhibitions = false;
-	let visibileSeminars = false;
+	buttonEvents.addEventListener('click', handleButtonSort);
 
-	buttonLectures.addEventListener('click', handleButtonLectures);
-	buttonExhibitions.addEventListener('click', handleButtonExhibitions);
-	buttonSeminars.addEventListener('click', handleButtonSeminars);
+	function handleButtonSort(event) {
 
-	function changeVisibilityLectures() {
-		visibileLectures = !visibileLectures;
-	}
-	function changeVisibilityExhibitions() {
-		visibileExhibitions = !visibileExhibitions;
-	}
-	function changeVisibilitySeminars() {
-		visibileSeminars = !visibileSeminars;
-	}
+		let filterEvents = event.target.dataset['f'];
+		let filterButtons = event.target.dataset['f'];
 
-	function handleButtonLectures() {
-		changeVisibilityLectures();
-		renderHTML();
-	}
-
-	function handleButtonExhibitions() {
-		changeVisibilityExhibitions();
-		renderHTML();
-	}
-
-	function handleButtonSeminars() {
-		changeVisibilitySeminars();
-		renderHTML();
-	}
-
-	function renderHTML() {
-
-		if (visibileLectures === true) {
-			//(visibileExhibitions = false)
-			//(visibileSeminars = false)
-			eventsLectures.style.display = 'block';
-			eventsExhibitions.style.display = 'none';
-			eventsSeminars.style.display = 'none';
+		for (const upcomingEvent of upcomingEvents) {	
+			
+			upcomingEvent.style.display = 'block';
+			if (!upcomingEvent.classList.contains(filterEvents)) {
+				upcomingEvent.style.display = 'none';
+			}	
 		}
 
-		else {
-			eventsLectures.style.display = 'none';
-			eventsExhibitions.style.display = 'block';
-			eventsSeminars.style.display = 'block';
+		for (const activeButton of activeButtons) {	
+			
+			activeButton.style.background = 'white';
+			activeButton.style.color = 'black';
+			if (activeButton.classList.contains(filterButtons)) {
+				activeButton.style.background = 'black';
+				activeButton.style.color = 'white';
+			}	
 		}
 	}
-
 }
