@@ -8,6 +8,7 @@
 	grid-template-columns: repeat(9, 1fr);
 	/*grid-template-rows: 47.5vw 20.5844156vw 36.6233766vw;*/
 	gap: var(--grid-gap);
+	margin-bottom: var(--grid-gap);
 }
 
 .main__images-first-news-first-image-hover-black,
@@ -83,7 +84,7 @@
 
 .main__images-placeholders {
 	background-image: url(../../assets/images/background.png);
-	margin-top: 1vw;
+	margin-bottom: var(--grid-gap);
 	aspect-ratio: 4/3;
 }
 
@@ -139,10 +140,10 @@
 }
 
 .main__images-second-news {
-	margin-top: 1vw;
+	/* margin-top: 1vw; */
 	display: grid;
 	grid-template-columns: repeat(9, 1fr);
-	gap: 1vw;
+	gap: var(--grid-gap);
 }
 
 .main__images-second-news-sixth-image {
@@ -179,4 +180,71 @@
 .main__images-second-news-eighth-image img {
 	object-fit: cover;
 	height: 100%;
+}
+
+@media screen and (max-width: 480px) {
+	.main__images-first-news-first-image-hover-black,
+	.main__images-first-news-second-image-hover-black,
+	.main__images-first-news-third-image-hover-black,
+	.main__images-first-news-fourth-image-hover-black,
+	.main__images-first-news-fifth-image-hover-black,
+	.main__images-first-news-sixth-image-hover-black,
+	.main__images-first-news-seventh-image-hover-black,
+	.main__images-first-news-eighth-image-hover-black {
+		width: 100%;
+		height: 100%;
+		background: black;
+		opacity: 50%;
+		position: absolute;
+		top: 0;
+		/* display: none; */
+	}
+	
+	.main__images-first-news {
+		display: unset;
+		margin-bottom: unset;
+	}
+	
+	.main__images-first-news img {
+		margin-bottom: var(--mobile-grid-gap);
+	}
+
+	.main__images-first-news img {
+		max-height: 100%;
+	}
+	
+	.main__images-placeholders {
+		aspect-ratio: unset;
+		margin-bottom: var(--mobile-grid-gap);
+	}
+
+	.main__images-placeholders-elements {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		height: 100%;
+		margin: var(--mobile-grid-gap);
+	}
+	
+	.main__images-placeholders-elements div:not(:last-of-type) {
+		width: 100%;
+		margin-bottom: var(--mobile-grid-gap);
+	}
+
+	.main__images-placeholders-elements p {
+		margin: 0 10%;
+		font-size: var(--mobile-large-text-size);
+	}
+
+	.main__images-second-news {
+		display: unset;
+	}
+
+	.main__images-second-news img {
+		margin-bottom: var(--mobile-grid-gap);
+	}
+
+	.main__images-second-news-eighth-image img {
+		margin-bottom: 0;
+	}
 }
