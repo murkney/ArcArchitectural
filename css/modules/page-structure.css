@@ -40,9 +40,6 @@
 }
 
 @media screen and	(max-width: 480px) {
-	.main__page-info {
-		margin: var(--mobile-small-text-size);
-	}
 	
 	.main__page-title {
 		grid-column: 1/10;
