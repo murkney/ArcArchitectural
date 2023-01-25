@@ -104,6 +104,10 @@
 		width: 75vw;
 	}
 
+	.events__filtering {
+		display: none;
+	}
+
 	.events__content-info {
 		font-size: var(--mobile-small-text-size);
 	}
