@@ -55,9 +55,6 @@
 }
 
 @media screen and (max-width:480px){
-	.main__article-content {
-		margin: var(--mobile-small-text-size);
-	}
 	
 	.main__article-author {
 		grid-column: 1/9;
