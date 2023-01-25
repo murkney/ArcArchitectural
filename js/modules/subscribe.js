@@ -6,9 +6,18 @@ export default function Subscribe() {
 	const subscribeEmail = document.querySelector('.subscribe__email');
 	const subscribing = document.querySelector('.subscribe__subscribing');
 
-	subscribeExit.addEventListener('click', handleSubscribeExitClick);
-	subscribeDesktop.addEventListener('click', handleSubscribeClick);
-	subscribeMobile.addEventListener('click', handleSubscribeClick);
+
+	if (subscribeDesktop) {
+		subscribeDesktop.addEventListener('click', handleSubscribeClick);
+	}
+
+	if (subscribeExit) {
+		subscribeExit.addEventListener('click', handleSubscribeExitClick);
+	}
+
+	if (subscribeMobile) {
+		subscribeMobile.addEventListener('click', handleSubscribeClick);
+	}
 	document.addEventListener('keydown', handleEnterKeyPress)
 
 	function handleSubscribeExitClick() {
