@@ -35,8 +35,13 @@ html {
 } */
 
 @media screen and (max-width: 480px) {
+
+	body {
+		padding: var(--mobile-grid-gap);
+	}
+
 	.aside-and-main {
-		margin: 0 var(--mobile-grid-gap);
+		margin: 0;
 	}
 
 	.main {
