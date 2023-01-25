@@ -5,7 +5,7 @@
 	grid-column-end: 4;
 	margin: var(--grid-gap) 0 var(--grid-gap) 0;
 	overflow-y: scroll;
-	max-height: 1000px;
+	max-height: 100vh;
 }
 
 .aside::-webkit-scrollbar {
