@@ -43,20 +43,32 @@
 	font-size: var(--large-text-size);
 }
 
-.aside__logo:hover > .aside__logo-hover--false {
-	display: none;
+.aside__logo {
+	position: relative;
+}
+
+.aside__logo-hover--true {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.aside__logo-hover--false {
+	position: relative;
+	top: 0;
+	left: 0;
 }
 
 .aside__logo:hover > a > .aside__logo-hover--true {
 	display: block;
-	margin-bottom: 5px;
+	z-index: 90;
 }
 
 @media screen and (max-width: 480px) {
 	.aside {
 		position: unset;
 		height: unset;
-		margin-bottom: var(--mobile-grid-gap);
+		margin: 0;
 	}
 
 	.aside__about {
