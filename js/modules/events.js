@@ -4,7 +4,9 @@ export default function Events() {
 	const buttonEvents = document.querySelector('.events__navigation');
 	const activeButtons = document.querySelectorAll('.events__navigation button');
 
-	buttonEvents.addEventListener('click', handleButtonSort);
+	if (buttonEvents) {
+		buttonEvents.addEventListener('click', handleButtonSort);
+	}
 
 	function handleButtonSort(event) {
 

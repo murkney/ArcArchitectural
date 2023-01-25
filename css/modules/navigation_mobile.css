@@ -4,8 +4,24 @@
 	align-items: center;
 }
 
-.aside__title-search {
+.aside__search-button {
 	display: none;
+}
+
+.aside__search-input {
+	display: none;
+}
+
+.search-icon-circle--active {
+	stroke: var(--purple);
+}
+
+.search-icon-stick--active {
+	stroke: var(--purple);
+}
+
+.hamburger-icon-line--active {
+	stroke: var(--purple);
 }
 
 .aside__title-hamburger-menu {
@@ -41,9 +57,39 @@
 		white-space: nowrap;
 	}
 
-	.aside__title-search {
+	.aside__search-button {
 		display: block;
-		width: 8vw;
+		/* width: 8vw; */
+	}
+
+	.search-icon {
+		display: flex;
+		height: 7.99vw;
+		width: 7.99vw;
+		/* border: 1px solid black; */
+	}
+
+	.aside__search-input {
+		display: none;
+	}
+	
+	.aside__search-input--active {
+		display: block;
+		position: absolute;
+		height: 12.093vw;
+		width: 70vw;
+		/* margin-top: 2vw; */
+		padding: 2vw;
+		font-family: 'Times New Roman', Times, serif;
+		font-size: var(--mobile-large-text-size);
+		border-radius: var(--mobile-grid-gap);
+		border: black 1px solid;
+	}
+
+	.hamburger-icon {
+		display: flex;
+		height: 7vw;
+		width: 10vw;
 	}
 
 	.aside__title-hamburger-menu {
@@ -117,7 +163,7 @@
 		opacity: 0;
 	}
 
-	.aside__navigation.active {
+	.aside__navigation--active {
 		display: flex;
 		flex-direction: column;
 		cursor: pointer;
