@@ -56,6 +56,7 @@
 	.aside {
 		position: unset;
 		height: unset;
+		margin-bottom: var(--mobile-grid-gap);
 	}
 
 	.aside__about {
