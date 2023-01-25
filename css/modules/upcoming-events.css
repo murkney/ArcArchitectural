@@ -72,10 +72,44 @@
 	.events__navigation-button {
 		display: none;
 	}
-	
+
+	.events__container {
+		display: flex;
+		flex-direction: row;
+		position: sticky;
+		align-items: center;
+		max-width: 100%;
+		height: 4rem;
+		overflow-x: scroll;
+		overflow-y: hidden;
+	}
+
+	.events {
+		display: flex;
+		margin-right: 1rem;
+		width: 100%;
+	}
+
 	.events__content-lectures,
 	.events__content-exhibitions,
 	.events__content-seminars {
-		display: none;
+		display: flex;
+		flex-direction: column;
+		/* width: 100%; */
+	}
+
+	.events__content-info,
+	.events__content-heading {
+		display: flex;
+		flex-direction: column;
+		width: 75vw;
+	}
+
+	.events__content-info {
+		font-size: var(--mobile-small-text-size);
+	}
+
+	.events__content-heading {
+		font-size: var(--mobile-body-text-size);
 	}
 }
