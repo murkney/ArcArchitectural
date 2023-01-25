@@ -33,3 +33,13 @@ html {
 		font-size: 15px;
 	}
 } */
+
+@media screen and (max-width: 480px) {
+	.aside-and-main {
+		margin: 0 var(--mobile-grid-gap);
+	}
+
+	.main {
+		margin: var(--mobile-grid-gap) 0 3.33vw 0;
+	}
+}
