@@ -95,7 +95,6 @@
 	.events__content-seminars {
 		display: flex;
 		flex-direction: column;
-		/* width: 100%; */
 	}
 
 	.events__content-info,
