@@ -9,7 +9,7 @@
 	font-family: var(--primary-font-family);
 	font-weight: 600;
 	background-color: #E7E7E7;
-	border-radius: .7vw;
+	border-radius: var(--grid-gap);
 	z-index: 99;
 	margin: 0 0.5vw 0 0.5vw;
 }
@@ -25,27 +25,30 @@
 
 .subscribe__desktop {
 	cursor: pointer;
+	width: 95%;
 }
 
 .subscribe__mobile {
 	display: none;
+	width: 95%;
 }
 
 .subscribe__exit {
-	width: 1rem;
-	height: 1rem;
+	width: 1.5rem;
+	height: 1.5rem;
 	background-image: url(/assets/icons/Close.svg);
 	background-size: contain;
 	background-repeat: no-repeat;
 }
 
 .subscribe__email {
-	width: 90%;
+	width: 95%;
+	font-family: var(--primary-font-family);
 	font-size: var(--large-text-size);
+	border-radius: .25vw;
 	margin-right: .8rem;
 	padding: 0 .3rem;
 	border: none;
-	font-family: var(--primary-font-family);
 }
 
 .hidden {
@@ -55,6 +58,7 @@
 @media screen and (max-width: 480px) {
 	.subscribe {
 		font-size: var(--mobile-large-text-size);
+		border-radius: var(--mobile-grid-gap);
 	}
 	
 	.subscribe__desktop {
@@ -67,5 +71,7 @@
 
 	.subscribe__email, .subscribe__subscribed {
 		font-size: var(--mobile-large-text-size);
+		border-radius: .25vw;
+		border-radius: var(--grid-gap);
 	}
 } 
