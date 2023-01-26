@@ -6,19 +6,12 @@ export default function Subscribe() {
 	const subscribeEmail = document.querySelector('.subscribe__email');
 	const subscribing = document.querySelector('.subscribe__subscribing');
 
-
-	if (subscribeDesktop) {
+	if (subscribeDesktop, subscribeExit, subscribeMobile, subscribeEmail) {
 		subscribeDesktop.addEventListener('click', handleSubscribeClick);
-	}
-
-	if (subscribeExit) {
 		subscribeExit.addEventListener('click', handleSubscribeExitClick);
-	}
-
-	if (subscribeMobile) {
 		subscribeMobile.addEventListener('click', handleSubscribeClick);
+		subscribeEmail.addEventListener('keydown', handleEnterKeyPress)
 	}
-	document.addEventListener('keydown', handleEnterKeyPress)
 
 	function handleSubscribeExitClick() {
 		subscribe.classList.add('hidden');	
@@ -31,6 +24,7 @@ export default function Subscribe() {
 	
 	function hideText() {
 		subscribeDesktop.classList.add('hidden');
+		subscribing.classList.add('hidden');
 		subscribeMobile.style.display = 'none';
 	}
 	
@@ -41,7 +35,6 @@ export default function Subscribe() {
 	function showSubscribedText() {
 		subscribeEmail.classList.add('hidden');
 		subscribing.classList.remove('hidden');
-		subscribe.classList.add('subscribe__subscribed-green');
 	}
 
 	function handleEnterKeyPress(event) {
