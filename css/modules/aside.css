@@ -26,7 +26,7 @@
 
 .aside__underline {
 	height: 1px;
-	background: var(--black);
+	background: var(--primary-dark);
 	margin: 1vw 0 1vw 0;
 }
 

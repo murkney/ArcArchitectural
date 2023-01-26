@@ -10,8 +10,8 @@ html {
 } 
 
 .body-dark {
-	background-color: var(--black);
-	color: var(--white);
+	background-color: var(--primary-dark);
+	color: var(--primary-light);
 }
 
 .aside-and-main {

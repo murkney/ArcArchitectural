@@ -108,7 +108,7 @@
 }
 
 .main__images-placeholders-first-placeholder {
-	background: var(--purple);
+	background: var(--highlight);
 	grid-column: 1/2;
 	grid-row: 1/2;
 	aspect-ratio: 4/3;
@@ -116,7 +116,7 @@
 }
 
 .main__images-placeholders-second-placeholder {
-	background: var(--purple);
+	background: var(--highlight);
 	grid-column: 2/3;
 	grid-row: 1/2;
 	aspect-ratio: 4/3;
@@ -124,7 +124,7 @@
 }
 
 .main__images-placeholders-third-placeholder {
-	background: var(--purple);
+	background: var(--highlight);
 	grid-column: 1/2;
 	grid-row: 2/3;
 	aspect-ratio: 4/3;
@@ -132,7 +132,7 @@
 }
 
 .main__images-placeholders-fourth-placeholder {
-	background: var(--purple);
+	background: var(--highlight);
 	grid-column: 2/3;
 	grid-row: 2/3;
 	aspect-ratio: 4/3;

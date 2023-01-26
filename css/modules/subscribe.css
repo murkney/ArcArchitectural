@@ -15,8 +15,8 @@
 }
 
 .subscribe:hover {
-	background: var(--black);
-	color: var(--white);
+	background: var(--primary-dark);
+	color: var(--primary-light);
 }
 
 .subscribe:hover .subscribe__exit {
