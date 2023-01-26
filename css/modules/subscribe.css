@@ -57,8 +57,9 @@
 
 @media screen and (max-width: 480px) {
 	.subscribe {
-		font-size: var(--mobile-large-text-size);
+		font-size: var(--mobile-body-text-size);
 		border-radius: var(--mobile-grid-gap);
+		height: 10vw;
 	}
 	
 	.subscribe__desktop {
@@ -71,6 +72,7 @@
 
 	.subscribe__email, .subscribe__subscribed {
 		font-size: var(--mobile-body-text-size);
+		height: 7.5vw;
 		border-radius: .25vw;
 		border-radius: var(--grid-gap);
 	}
