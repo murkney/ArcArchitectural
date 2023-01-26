@@ -1,15 +1,22 @@
 export default function Navigation() {
 	//model
 	let isVisible = false;
+	let navigationFixedThreshold = 355;
+	let navigationLinksThreshold = 268;
 	
 	//query selectors
 	const menu = document.querySelector('#mobile-navigation');
 	const navigationLinks = document.querySelector('.aside__navigation');
+	const navigationBar = document.querySelector('.aside__title');
 	const hamburgerIconLines = document.querySelectorAll('.hamburger-icon-line');
 
 	//event listener
 	if (menu) {
 		menu.addEventListener('click', handleToggleNavigation);
+	}
+
+	if (navigationBar) {
+		window.addEventListener('scroll', handleNavigationScroll);
 	}
 	
 	//handler
@@ -17,6 +24,10 @@ export default function Navigation() {
 		toggleVisibility();
 		renderHTML();
 	};
+
+	function handleNavigationScroll() {
+		renderHTML();
+	}
 
 	//methods
 	function toggleVisibility() {
@@ -39,5 +50,18 @@ export default function Navigation() {
 			}
 		}
 
+		const scrollY = window.scrollY;
+		
+		if (isVisible === true && scrollY >= navigationLinksThreshold) {
+			navigationLinks.classList.add('aside__navigation--fixed');
+		} else {
+			navigationLinks.classList.remove('aside__navigation--fixed');
+		}
+
+		if (scrollY >= navigationFixedThreshold) {
+			navigationBar.classList.add('aside__title--fixed');
+		} else {
+			navigationBar.classList.remove('aside__title--fixed');
+		}
 	}
 }	
