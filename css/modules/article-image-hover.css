@@ -20,13 +20,13 @@
 
 .image__text-paragraph {
 	font-size: var(--body-text-size);
-	color: var(--white);
+	color: var(--primary-light);
 }
 
 .image__text-h2 {
 	font-family: var(--primary-font-family);
 	font-size: var(--large-text-size);
-	color: var(--white);
+	color: var(--primary-light);
 }
 
 .main__images-first-news-first-image:hover .main__images-first-news-first-image-hover-black,

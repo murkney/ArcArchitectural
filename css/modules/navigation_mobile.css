@@ -13,15 +13,15 @@
 }
 
 .search-icon-circle--active {
-	stroke: var(--purple);
+	stroke: var(--highlight);
 }
 
 .search-icon-stick--active {
-	stroke: var(--purple);
+	stroke: var(--highlight);
 }
 
 .hamburger-icon-line--active {
-	stroke: var(--purple);
+	stroke: var(--highlight);
 }
 
 .aside__title-hamburger-menu {
@@ -112,7 +112,7 @@
 	.aside__title-hamburger-menu div {
 		height: 1vw;
 		width: 10vw;
-		background-color: var(--black);
+		background-color: var(--primary-dark);
 		position: absolute;
 		right: 0;
 		-webkit-transform: rotate(0deg);
@@ -139,7 +139,7 @@
 	}
 	
 	.aside__title-hamburger-menu.open div {
-		background: var(--black);
+		background: var(--primary-dark);
 	}
 	
 	.aside__title-hamburger-menu.open div:nth-child(1) {

@@ -1,9 +1,9 @@
 .aside__underline {
-	background: var(--white);
+	background: var(--primary-light);
 }
 
  .aside__navigation > a {
-	color: var(--white);
+	color: var(--primary-light);
 }
 
 .aside__logo:hover > .aside__logo-white {
@@ -15,9 +15,9 @@
 }
 
 .aside__title-hamburger-menu div {
-	background: var(--white);
+	background: var(--primary-light);
 }	
 
 .aside__title-hamburger-menu.open div {
-	background: var(--white);
+	background: var(--primary-light);
 }

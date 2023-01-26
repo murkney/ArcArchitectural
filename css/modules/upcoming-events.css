@@ -14,7 +14,7 @@
 .events__navigation-button {
 	font-size: var(--small-text-size);
 	text-transform: uppercase;
-	border: .1vw solid var(--black);
+	border: .1vw solid var(--primary-dark);
 	border-radius: 1vw;
 	padding: .2vw .5vw;
 }
@@ -37,12 +37,12 @@
 }
 
 .events__navigation-button:hover {
-	background: var(--black);
-	color: var(--white);
+	background: var(--primary-dark);
+	color: var(--primary-light);
 } 
 
 .event__buttons-dark {
-	border-color: var(--white);
+	border-color: var(--primary-light);
 }
 
 .events__content-info {
@@ -57,8 +57,8 @@
 }
 
 .events__navigation-link:hover {
-	color: var(--white);
-	background-color: var(--black);
+	color: var(--primary-light);
+	background-color: var(--primary-dark);
 }
 
 @media screen and (max-width: 480px) {

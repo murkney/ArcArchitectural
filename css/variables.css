@@ -10,10 +10,9 @@
 
 	--primary-font-family: neue-haas-grotesk-text, sans-serif;
 	
-	--black: #000000;
-	--white: #FFFFFF;
-	--purple: #9747FF;
-	--grey: #E7E7E7;
+	--primary-dark: #000000;
+	--primary-light: #FFFFFF;
+	--highlight: #9747FF;
 
 	--grid-gap: 0.69444444vw;
 	--mobile-grid-gap: 2.083333vw;
