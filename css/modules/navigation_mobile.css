@@ -59,13 +59,14 @@
 
 	.aside__search-button {
 		display: block;
-		/* width: 8vw; */
+		height: 7.99vw;
+		/* width: 7.99vw; */
 	}
 
 	.search-icon {
 		display: flex;
-		height: 7.99vw;
-		width: 7.99vw;
+		max-height: 100%;
+		max-width: 100%;
 		/* border: 1px solid black; */
 	}
 
@@ -76,8 +77,8 @@
 	.aside__search-input--active {
 		display: block;
 		position: absolute;
-		height: 12.093vw;
-		width: 70vw;
+		height: 11vw;
+		width: 68vw;
 		/* margin-top: 2vw; */
 		padding: 2vw;
 		font-family: 'Times New Roman', Times, serif;
