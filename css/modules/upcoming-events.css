@@ -41,6 +41,10 @@
 	color: var(--white);
 } 
 
+.event__buttons-dark {
+	border-color: var(--white);
+}
+
 .events__content-info {
 	font-size: var(--small-text-size);
 	text-transform: uppercase;
