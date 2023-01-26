@@ -76,8 +76,8 @@
 	.aside__search-input--active {
 		display: block;
 		position: absolute;
-		height: 12.093vw;
-		width: 70vw;
+		height: 11vw;
+		width: 68vw;
 		/* margin-top: 2vw; */
 		padding: 2vw;
 		font-family: 'Times New Roman', Times, serif;
