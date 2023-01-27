@@ -24,16 +24,6 @@
 .events__content-seminars {
 	margin: 1vw 0;
 	display: block;
-	animation: fade 0.5s ease-in;
-}
-
-@keyframes fade {
-	from {
-		opacity: 0;
-	}
-	to {
-		opacity: 1;
-	}
 }
 
 .events__navigation-button:hover {
