@@ -108,13 +108,13 @@
 	.image__text-paragraph {
 		display: flex;
 		font-size: var(--mobile-body-text-size);
-		color: var(--white);
+		color: var(--primary-light);
 	}
 
 	.image__text-h2 {
 		font-family: var(--primary-font-family);
 		font-size: var(--mobile-large-text-size);
-		color: var(--white);
+		color: var(--primary-light);
 		align-content: center;
 	}
 }
