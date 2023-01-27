@@ -69,6 +69,7 @@
 		position: unset;
 		height: unset;
 		margin: 0;
+		overflow-y: unset;
 	}
 
 	.aside__about {

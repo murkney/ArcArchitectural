@@ -14,10 +14,18 @@
 	display: block;
 }
 
+.aside__title {
+	background: black;
+}
+
 .aside__title-hamburger-menu div {
 	background: var(--primary-light);
 }	
 
 .aside__title-hamburger-menu.open div {
 	background: var(--primary-light);
+}
+
+.aside__navigation--fixed {
+	background: black;
 }
