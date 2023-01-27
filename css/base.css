@@ -7,6 +7,7 @@ html {
 .body {
 	display: flex;
 	flex-direction: row;
+	animation: fade 0.5s ease-in;
 } 
 
 .body-dark {
@@ -27,12 +28,14 @@ html {
 	margin: var(--grid-gap) 0 var(--grid-gap) 0;
 }
 
-
-/* @media screen and (max-width: 800px) {
-	html {
-		font-size: 15px;
+@keyframes fade {
+	from {
+		opacity: 0;
 	}
-} */
+	to {
+		opacity: 1;
+	}
+}
 
 @media screen and (max-width: 480px) {
 
