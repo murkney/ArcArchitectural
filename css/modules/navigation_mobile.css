@@ -62,7 +62,7 @@
 		position: fixed;
 		top: -5px;
 		left: 0;
-		z-index: 3;
+		z-index: 6;
 		width: 100vw;
 		/* top: var(--mobile-grid-gap); */
 		flex-direction: row;
@@ -187,11 +187,11 @@
 	.aside__navigation--fixed {
 		display: flex;
 		position: fixed;
-		top: 55px;
+		top: 10.30vw;
 		width: 100%;
 		padding: var(--mobile-grid-gap);
 		left: 0;
-		z-index: 3;
+		z-index: 5;
 		background: white;
 		flex-direction: column;
 		font-family: 'Times New Roman', Times, serif;
