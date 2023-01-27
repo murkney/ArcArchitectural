@@ -1,12 +1,31 @@
 :root {
 
-	--large-text-size: 2.3vw;
-	--body-text-size: 1.13vw;
-	--small-text-size: 0.7vw;
+	/* Desktop variables */
 
-	--mobile-large-text-size: 8.2vw;
-	--mobile-body-text-size: 4.17vw;
-	--mobile-small-text-size: 2.08vw;
+	/* This title vw fits all screen */
+	--large-text-size: 2.3vw;
+
+	/* Same as 20px as vw */
+	--body-text-size: 1.39vw;
+	/* --body-text-size: 1.13vw; */
+
+	/* Same as 12.5px as vw */
+	--small-text-size: 0.87vw;
+	/* --small-text-size: 0.7vw; */
+
+	/* Mobile variables */
+
+	/* Same as 40px in vw */
+	--mobile-large-text-size: 8.3vw;
+	/* --mobile-large-text-size: 8.2vw; */
+	
+	/* Same as 25px in vw */
+	--mobile-body-text-size: 5.2vw;
+	/* --mobile-body-text-size: 4.17vw; */
+
+	/* Same as 15px in vw */
+	--mobile-small-text-size: 3.125vw;
+	/* --mobile-small-text-size: 2.08vw; */
 
 	--primary-font-family: neue-haas-grotesk-text, sans-serif;
 	
