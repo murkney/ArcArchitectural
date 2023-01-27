@@ -1,14 +1,16 @@
 export default function Navigation() {
 	//model
 	let isVisible = false;
-	let navigationFixedThreshold = 355;
-	let navigationLinksThreshold = 268;
+
 	
 	//query selectors
 	const menu = document.querySelector('#mobile-navigation');
 	const navigationLinks = document.querySelector('.aside__navigation');
 	const navigationBar = document.querySelector('.aside__title');
 	const hamburgerIconLines = document.querySelectorAll('.hamburger-icon-line');
+	const asideLogo = document.querySelector('.aside__logo');
+
+	let navigationFixedThreshold = asideLogo.getBoundingClientRect().bottom;
 
 	//event listener
 	if (menu) {
@@ -50,9 +52,9 @@ export default function Navigation() {
 			}
 		}
 
-		const scrollY = window.scrollY;
+		const scrollY = window.scrollY;		
 		
-		if (isVisible === true && scrollY >= navigationLinksThreshold) {
+		if (isVisible === true && scrollY >= navigationFixedThreshold) {
 			navigationLinks.classList.add('aside__navigation--fixed');
 		} else {
 			navigationLinks.classList.remove('aside__navigation--fixed');
