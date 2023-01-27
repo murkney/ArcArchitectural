@@ -83,4 +83,24 @@
 		color: var(--primary-light);
 		align-content: center;
 	}
+
+	.main__images-first-news-first-image:hover .main__images-first-news-first-image-hover-black,
+	.main__images-first-news-second-image:hover .main__images-first-news-second-image-hover-black,
+	.main__images-first-news-third-image:hover .main__images-first-news-third-image-hover-black,
+	.main__images-first-news-fourth-image:hover .main__images-first-news-fourth-image-hover-black, 
+	.main__images-second-news-sixth-image:hover .main__images-first-news-sixth-image-hover-black, 
+	.main__images-second-news-seventh-image:hover .main__images-first-news-seventh-image-hover-black, 
+	.main__images-second-news-eighth-image:hover .main__images-first-news-eighth-image-hover-black {
+		display: none;
+	}
+
+	.main__images-first-news-first-image:hover .main__images-first-news-first-image-text-hover,
+	.main__images-first-news-second-image:hover .main__images-first-news-second-image-text-hover, 
+	.main__images-first-news-third-image:hover .main__images-first-news-third-image-text-hover,
+	.main__images-first-news-fourth-image:hover .main__images-first-news-fourth-image-text-hover,
+	.main__images-second-news-sixth-image:hover .main__images-first-news-sixth-image-text-hover,
+	.main__images-second-news-seventh-image:hover .main__images-first-news-seventh-image-text-hover,
+	.main__images-second-news-eighth-image:hover .main__images-first-news-eighth-image-text-hover {
+		display: none;
+	}
 }
