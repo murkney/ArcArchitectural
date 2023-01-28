@@ -9,6 +9,8 @@ export default function Navigation() {
 	const navigationBar = document.querySelector('.aside__title');
 	const hamburgerIconLines = document.querySelectorAll('.hamburger-icon-line');
 	const asideLogo = document.querySelector('.aside__logo');
+	const navigationLinksHidden = document.querySelector('.aside__navigation-hidden');
+	const navigationBarHidden = document.querySelector('.aside__title-hidden');
 
 	let navigationFixedThreshold = asideLogo.getBoundingClientRect().bottom;
 
@@ -56,14 +58,18 @@ export default function Navigation() {
 		
 		if (isVisible === true && scrollY >= navigationFixedThreshold) {
 			navigationLinks.classList.add('aside__navigation--fixed');
+			navigationLinksHidden.classList.add('aside__navigation-hidden--active');
 		} else {
 			navigationLinks.classList.remove('aside__navigation--fixed');
+			navigationLinksHidden.classList.remove('aside__navigation-hidden--active');
 		}
 
 		if (scrollY >= navigationFixedThreshold) {
 			navigationBar.classList.add('aside__title--fixed');
+			navigationBarHidden.classList.add('aside__title-hidden--active');
 		} else {
 			navigationBar.classList.remove('aside__title--fixed');
+			navigationBarHidden.classList.remove('aside__title-hidden--active');
 		}
 	}
 }	
