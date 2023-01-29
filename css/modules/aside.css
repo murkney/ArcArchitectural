@@ -6,6 +6,7 @@
 	margin: var(--grid-gap) 0 var(--grid-gap) 0;
 	overflow-y: scroll;
 	max-height: 100vh;
+	padding-bottom: 4vh;
 }
 
 .aside::-webkit-scrollbar {

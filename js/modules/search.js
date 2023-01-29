@@ -30,6 +30,7 @@ export default function Search() {
 			searchInputField.classList.add('aside__search-input--active');
 			searchIconCircle.classList.add('search-icon-circle--active');
 			searchIconStick.classList.add('search-icon-stick--active');
+
 			searchInputField.focus();
 		} else {
 			searchInputField.classList.remove('aside__search-input--active');

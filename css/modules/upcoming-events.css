@@ -17,6 +17,7 @@
 	border: .1vw solid var(--primary-dark);
 	border-radius: 1vw;
 	padding: .2vw .5vw;
+	cursor: pointer;
 }
 
 .events__content-lectures,
