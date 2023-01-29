@@ -12,6 +12,12 @@
 
 .main__page-image {
 	grid-column: 2/9;
+	max-height: 550px;
+}
+
+.main__page-image img {
+	max-height: 100%;
+	object-fit: cover;
 }
 
 .main__page-text {
@@ -21,7 +27,6 @@
 	font-style: normal;
 	font-size: var(--large-text-size);
 	margin: var(--large-text-size) 0 var(--large-text-size);
-	max-width: 705px;
 }
 
 .main__page-paragraph {

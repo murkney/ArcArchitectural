@@ -1,6 +1,7 @@
 .main__article-content {
 	display: grid;
 	grid-template-columns: repeat(9, 1fr);
+	margin-top: -1.5vw;
 }
 
 .main__article-author {
@@ -26,6 +27,12 @@
 .main__article-first-image {
 	grid-column: 1/10;
 	margin-bottom: 0.694vw;
+	max-height: 661px;
+}
+
+.main__article-first-image img {
+	max-height: 100%;
+	object-fit: cover;
 }
 
 .main__article-first-image-figcap {
@@ -38,6 +45,7 @@
 }
 
 .main__article-subparagraph {
+	font-size: var(--body-text-size);
 	grid-column: 2/6;
 }
 
@@ -48,10 +56,16 @@
 .main__article-second-image {
 	grid-column: 2/9;
 	margin-bottom: 0.694vw;
+	max-height: 550px;
+}
+
+.main__article-second-image img {
+	max-height: 100%;
+	object-fit: cover;
 }
 
 .main__article-second-image-figcap {
-	grid-column: 2/6;
+	grid-column: 2/7;
 }
 
 @media screen and (max-width:480px){
