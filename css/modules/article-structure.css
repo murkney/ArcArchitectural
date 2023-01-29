@@ -96,4 +96,7 @@
 		grid-column: 1/10;
 	}
 
+	.main__article-subparagraph {
+		font-size: var(--mobile-body-text-size);
+	}
 }
