@@ -29,7 +29,8 @@ export default function Search() {
 		if (isVisible === true) {
 			searchInputField.classList.add('aside__search-input--active');
 			searchIconCircle.classList.add('search-icon-circle--active');
-			searchIconStick.classList.add('search-icon-stick--active')
+			searchIconStick.classList.add('search-icon-stick--active');
+
 			searchInputField.focus();
 		} else {
 			searchInputField.classList.remove('aside__search-input--active');
