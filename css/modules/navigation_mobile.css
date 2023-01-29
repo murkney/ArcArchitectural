@@ -4,6 +4,14 @@
 	align-items: center;
 }
 
+.aside__title-hidden {
+	display: none;
+}
+
+.aside__navigation-hidden {
+	display: none;
+}
+
 .aside__search-button {
 	display: none;
 }
@@ -77,6 +85,24 @@
 		white-space: nowrap;
 	}
 
+	.aside__title-hidden div {
+		height: 10.208333333333vw;
+		width: 95.839583333333vw;
+	}
+
+	.aside__title-hidden--active {
+		display: unset;
+	}
+
+	.aside__navigation-hidden div {
+		height: 48.958333333333vw;
+		width: 95.839583333333vw;
+	}
+
+	.aside__navigation-hidden--active {
+		display: unset;
+	}
+
 	.aside__search-button {
 		display: block;
 		height: 7.99vw;
@@ -97,7 +123,7 @@
 	.aside__search-input--active {
 		display: block;
 		position: absolute;
-		height: 12.093vw;
+		height: 10vw;
 		width: 71vw;
 		/* margin-top: 2vw; */
 		padding: 2vw;
