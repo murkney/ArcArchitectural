@@ -29,3 +29,8 @@
 .aside__navigation--fixed {
 	background: black;
 }
+
+.event__buttons-dark {
+	background-color: var(--primary-light);
+	color: var(--primary-dark);
+}
