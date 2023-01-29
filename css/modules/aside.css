@@ -71,6 +71,7 @@
 		height: unset;
 		margin: 0;
 		overflow-y: unset;
+		padding-bottom: 0;
 	}
 
 	.aside__about {
