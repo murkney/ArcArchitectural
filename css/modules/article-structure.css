@@ -56,7 +56,6 @@
 .main__article-second-image {
 	grid-column: 2/9;
 	margin-bottom: 0.694vw;
-	max-height: 550px;
 }
 
 .main__article-second-image img {
