@@ -6,7 +6,6 @@
 .main__images-first-news {
 	display: grid;
 	grid-template-columns: repeat(9, 1fr);
-	/*grid-template-rows: 47.5vw 20.5844156vw 36.6233766vw;*/
 	gap: var(--grid-gap);
 	margin-bottom: var(--grid-gap);
 }
